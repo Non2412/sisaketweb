@@ -1,0 +1,74 @@
+/* StatsCard Component Styles */
+.stats-card {
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  color: white;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.stats-card:hover {
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.stats-card-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+  font-size: 2.25rem;
+}
+
+.stats-card-title {
+  font-size: 0.875rem;
+  font-weight: 500;
+  opacity: 0.9;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.stats-card-value {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  text-align: center;
+}
+
+.stats-card-unit {
+  font-size: 0.75rem;
+  opacity: 0.75;
+  text-align: center;
+}
+
+/* Color variants */
+.stats-card-primary {
+  background-color: #4f46e5;
+}
+
+.stats-card-success {
+  background-color: #10b981;
+}
+
+.stats-card-info {
+  background-color: #3b82f6;
+}
+
+.stats-card-warning {
+  background-color: #f59e0b;
+}
+
+.stats-card-cyan {
+  background-color: #06b6d4;
+}
+
+.stats-card-purple {
+  background-color: #a855f7;
+}
+
+.stats-card-blue {
+  background-color: #3b82f6;
+}
+
+.stats-card-orange {
+  background-color: #f97316;
+}
